@@ -1,0 +1,35 @@
+{
+  "name": "marketplacer-checkout-challenge",
+  "version": "1.0.0",
+  "description": "A TypeScript CLI checkout application with tiered discounts",
+  "scripts": {
+    "test": "vitest run",
+    "dev": "tsx src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit",
+    "test:watch": "vitest",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aries-Lacson/marketplacer-checkout-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Aries-Lacson/marketplacer-checkout-challenge/issues"
+  },
+  "homepage": "https://github.com/Aries-Lacson/marketplacer-checkout-challenge#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^22.20.5",
+    "eslint": "^10.14.0",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.72.2",
+    "vitest": "^5.1.0"
+  },
+  "private": true,
+  "type": "module"
+}
