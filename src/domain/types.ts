@@ -4,3 +4,8 @@ export interface Product {
   readonly name: string;
   readonly priceCents: number;
 }
+
+export interface CartItem {
+  readonly productId: number;
+  readonly quantity: number;
+}
